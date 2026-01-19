@@ -1,5 +1,9 @@
 # Seniore
-Seniore is a web-based platform that connects senior citizens with students through structured, time-bound, and safe interactions. The system focuses on accessibility, predictable workflows, and moderation-first design to support ethical and reliable social connections.
+Seniore is a web-based platform that connects junior university students with seniors for structured mentorship, academic guidance, and peer support. The system is designed to reduce onboarding friction for juniors while enabling seniors to share experience in a controlled, time-bound, and accountable manner.
+
+# Problem Statement
+Junior students often struggle with academic navigation, course selection, internships, and campus life due to lack of accessible peer guidance. At the same time, senior students possess valuable institutional knowledge but lack a structured way to mentor juniors beyond informal chats and scattered groups.
+Existing solutions (WhatsApp groups, Discord servers, spreadsheets) are unstructured, noisy, and difficult to moderate. Seniore provides a clear, role-based system to enable meaningful junior–senior interactions within a university ecosystem.
 ______________________________________________________________________________________________________________________________________________________________________________________________________
 ## **Tech Stack**
 **Frontend**
@@ -18,12 +22,13 @@ ________________________________________________________________________________
 
 ## **Core Functionality**
 
-- Role-based user onboarding (Senior / Student)
-- Profile creation with availability and preferences
-- Interest- and availability-based matching
-- Scheduled interaction sessions (chat / call / video-ready)
-- Reporting and moderation workflows
-- Accessibility-first UI design
+- Role-based onboarding (Junior / Senior)
+- Profile creation with department, year, interests
+-  Availability-based matching
+- Scheduled 1:1 or small-group sessions
+- Session feedback and reporting
+- Moderation and blocking mechanisms
+- Clear interaction boundaries (no open-ended DMs)
 
 ## **System Overview**
 Client (Web UI)
@@ -36,13 +41,10 @@ Database (Users, Sessions, Feedback)
 
 ## **Key Design Considerations**
 
-1. Accessibility: large typography, high contrast, minimal navigation
-
-2. Safety: verification, reporting, session limits
-
-3. Clarity: predictable flows, explicit states, no hidden actions
-
-4. Ethics: no payments, no dependency creation, no personal data exchange
+1. Clarity: explicit roles, visible session states, predictable flows
+2. Scalability: supports growth across departments and batches
+3. Safety: reporting, moderation, limited interaction scope
+4. Usability: simple navigation, minimal cognitive load
 
 ## **Project Status**
 🚧 Early-stage development / MVP in progress
