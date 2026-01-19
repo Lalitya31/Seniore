@@ -8,17 +8,17 @@ ________________________________________________________________________________
 ## **Tech Stack**
 **Frontend**
 - React
--HTML / CSS
--Accessibility-focused UI components
+- HTML / CSS
+- Accessibility-focused UI components
 
 **Backend**
--Python (Flask)
--RESTful APIs
--Database
--Relational database (users, profiles, sessions, feedback)
+- Python (Flask)
+- RESTful APIs
+- Database
+- Relational database (users, profiles, sessions, feedback)
 
 **Version Control**
--Git, GitHub
+- Git, GitHub
 
 ## **Core Functionality**
 
