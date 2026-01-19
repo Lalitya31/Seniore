@@ -31,13 +31,10 @@ ________________________________________________________________________________
 - Clear interaction boundaries (no open-ended DMs)
 
 ## **System Overview**
-Client (Web UI)
-   ↓
-API Layer (Flask)
-   ↓
-Matching & Session Logic
-   ↓
-Database (Users, Sessions, Feedback)
+1. Client (Web UI)
+2. API Layer (Flask)
+3. Matching & Session Logic
+4. Database (Users, Sessions, Feedback)
 
 ## **Key Design Considerations**
 
